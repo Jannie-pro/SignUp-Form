@@ -1,0 +1,149 @@
+/**
+* ! changing default styles of brower
+**/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+/**
+* ! style rules for form section
+**/
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    /* max-width: 400px; */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    background-color: rgb(139, 171, 199);
+    justify-items: center;
+    margin: 50px auto;
+    border: 1px;
+        border-radius: 5px;
+}
+/* Style for title */
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+/* add a margin to the bottom of the label text */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+/* Change the look and feel of the input tags */
+form div input {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #c4c4c4;
+    padding: 0 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Add some space and color changing effects */
+form div {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    border: 2px solid #f2796e;
+}
+/**
+* ! style rules for form icons
+**/
+
+form div i {
+    position: absolute;
+    padding: 10px;
+}
+/* Styles to style the error class,
+along with the success and failure icons */
+.failure-icon,
+.error {
+    color: red;
+}
+
+.success-icon {
+    color: green;
+}
+
+.error {
+    font-size: 14.5px;
+    margin-top: 5px;
+}
+/* Hide the  success and failure icons */
+.success-icon,
+.failure-icon {
+    right: 0;
+    opacity: 0;
+}
+/* Style rules for submit btn */
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    height: 45px;
+    background-color: #1b5b94;
+    border: 2px solid #1b5b94;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.1s ease;
+}
+/* Add a hover effect on the button */
+button:hover {
+    opacity: 0.8;
+}
+/**
+* ! style rules for social section
+**/
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+.btn-1,
+.btn-2 {
+    padding: 10px 5px;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+/* Change the icon color and text color of .btn-2 */
+.btn-2 {
+    background-color: #4f70b5;
+    color: white;
+}
+.or {
+    text-align: center;
+}
+
+.social p {
+    font-size: 15px;
+}
+
+span {
+    color: #1b5b94;
+    cursor: pointer;
+}
